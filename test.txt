@@ -1,3 +1,192 @@
-$$start
-testtest
-$$end
+
+------------------------------------------------------------------------------------------
+$ INTERFACE CONFIG $
+
+	value changes here lead to changes in the program!
+
+	parameters (value 0 - 999):
+
+		$key: $SENSOR EVALUATION$, $value: 0
+		$key: $DISCREPANCY TIME$, $value: 1
+		$key: $SENSOR SUPPLY$, $value: 2
+		$key: $DISCREPANCY BEHAVIOUR$, $value: 3
+		$key: $REINTEGRATION AFTER DISCREPANCY ERROR$, $value: 4
+
+	parameter values (value >= 1000)
+
+		$key: $single channel$, $value: 1000
+		$key: $dual channel$, $value: 1001
+		$key: $500$, $value: 1002
+		$key: $200$, $value: 1003
+		$key: $external$, $value: 1004
+		$key: $internal$, $value: 1005
+		$key: $provide 0 value$, $value: 1006
+		$key: $provide last valid value$, $value: 1007
+		$key: $0 test necesarry$, $value: 1008
+		$key: $0 test not necesarry$, $value: 1009
+
+
+$ INTERFACE CONFIG $
+------------------------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------------------
+$SENSOR EVALUATION$
+
+	$single channel$
+
+		$comment: optical sensor
+		$comment: voltage ok
+		$comment: wartungsschalter lift
+		$comment: fire alarm ok 
+
+	$single channel$
+
+
+	$dual channel$
+
+		estop buttons
+
+			$comment: emergency stop button ok
+			$comment: emergency stop button active
+			$comment: not-halt-taster aktiv ch$
+			$comment: not-halt von swisslog (ch0$)
+
+		$comment: safety door closed $		
+		$comment: knapp lock closed
+		$comment: light curtain ch$ active
+		$comment: acknowledgement button active
+		$comment: safe stop (ch0$)
+		$comment: zustimmtaster freigegeben kanal $
+
+	$dual channel$
+
+$SENSOR EVALUATION$
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+$DISCREPANCY TIME$
+
+	only needed to add 1oo2 comments here!
+
+	$500$
+
+		$comment: safety door closed $
+
+	$500$
+
+	$200$
+
+		$comment: knapp lock closed
+		$comment: light curtain ch$ active
+		$comment: acknowledgement button active
+		$comment: safe stop (ch0$)
+		$comment: zustimmtaster freigegeben kanal $
+		$comment: emergency stop button ok
+		$comment: emergency stop button active
+		$comment: not-halt-taster aktiv ch$
+		$comment: not-halt von swisslog (ch0$)
+
+	$200$
+
+
+$DISCREPANCY TIME$
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+$SENSOR SUPPLY$
+
+	$external$
+
+		$comment: knapp lock closed
+		$comment: light curtain ch$ active
+		$comment: optical sensor
+
+	$external$
+
+	$internal$
+
+		$comment: voltage ok
+		$comment: wartungsschalter lift
+		$comment: fire alarm ok
+		$comment: emergency stop button ok
+		$comment: emergency stop button active
+		$comment: not-halt-taster aktiv ch$
+		$comment: not-halt von swisslog (ch0$)
+
+	
+		$comment: safety door closed $
+		$comment: acknowledgement button active
+		$comment: safe stop (ch0$)
+		$comment: zustimmtaster freigegeben kanal $
+
+	$internal$
+
+
+$SENSOR SUPPLY$
+------------------------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------------------
+$DISCREPANCY BEHAVIOUR$
+
+	only needed to add 1oo2 comments here!
+
+	$provide 0 value$
+
+		$comment: emergency stop button ok
+		$comment: emergency stop button active
+		$comment: not-halt-taster aktiv ch$
+		$comment: not-halt von swisslog (ch0$)
+
+	$provide 0 value$
+	
+
+	$provide last valid value$
+
+		$comment: safety door closed $		
+		$comment: knapp lock closed
+		$comment: light curtain ch$ active
+		$comment: acknowledgement button active
+		$comment: safe stop (ch0$)
+		$comment: zustimmtaster freigegeben kanal $
+
+	$provide last valid value$
+
+$DISCREPANCY BEHAVIOUR$
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+$REINTEGRATION AFTER DISCREPANCY ERROR$
+
+	only needed to add 1oo2 comments here!
+
+	$0 test necesarry$
+
+		$comment: emergency stop button ok
+		$comment: emergency stop button active
+		$comment: not-halt-taster aktiv ch$
+		$comment: not-halt von swisslog (ch0$)
+		$comment: light curtain ch$ active
+
+	$0 test necesarry$
+
+	$0 test not necesarry$
+
+		$comment: safety door closed $		
+		$comment: knapp lock closed
+		$comment: acknowledgement button active
+		$comment: safe stop (ch0$)
+		$comment: zustimmtaster freigegeben kanal $
+
+	$0 test not necesarry$
+
+
+$REINTEGRATION AFTER DISCREPANCY ERROR$
+------------------------------------------------------------------------------------------
+
