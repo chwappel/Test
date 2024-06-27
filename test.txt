@@ -6,24 +6,24 @@ $ INTERFACE CONFIG $
 
 	parameters (value 0 - 999):
 
-		$key: $SENSOR EVALUATION$, $value: 0
-		$key: $DISCREPANCY TIME$, $value: 1
-		$key: $SENSOR SUPPLY$, $value: 2
-		$key: $DISCREPANCY BEHAVIOUR$, $value: 3
-		$key: $REINTEGRATION AFTER DISCREPANCY ERROR$, $value: 4
+		$key: $SENSOR EVALUATION$; $value: 0
+		$key: $DISCREPANCY TIME$; $value: 1
+		$key: $SENSOR SUPPLY$; $value: 2
+		$key: $DISCREPANCY BEHAVIOUR$; $value: 3
+		$key: $REINTEGRATION AFTER DISCREPANCY ERROR$; $value: 4
 
 	parameter values (value >= 1000)
 
-		$key: $single channel$, $value: 1000
-		$key: $dual channel$, $value: 1001
-		$key: $500$, $value: 1002
-		$key: $200$, $value: 1003
-		$key: $external$, $value: 1004
-		$key: $internal$, $value: 1005
-		$key: $provide 0 value$, $value: 1006
-		$key: $provide last valid value$, $value: 1007
-		$key: $0 test necesarry$, $value: 1008
-		$key: $0 test not necesarry$, $value: 1009
+		$key: $single channel$; $value: 1000
+		$key: $dual channel$; $value: 1001
+		$key: $500$; $value: 1002
+		$key: $200$; $value: 1003
+		$key: $external$; $value: 1004
+		$key: $internal$; $value: 1005
+		$key: $provide 0 value$; $value: 1006
+		$key: $provide last valid value$; $value: 1007
+		$key: $0 test necesarry$; $value: 1008
+		$key: $0 test not necesarry$; $value: 1009
 
 
 $ INTERFACE CONFIG $
